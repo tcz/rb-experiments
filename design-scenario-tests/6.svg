@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="393px" height="852px" viewBox="0 0 393 852" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>6</title>
+    <defs>
+        <rect id="path-1" x="18" y="104" width="361" height="727"></rect>
+        <filter x="-14.4%" y="-6.9%" width="128.8%" height="114.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="17" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.196078431   0 0 0 0 0   0 0 0 0 0.752941176  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-2.4%" y="-7.3%" width="104.9%" height="124.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.196078431   0 0 0 0 0   0 0 0 0 0.752941176  0 0 0 1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#C8CEFF" x="0" y="0" width="393" height="852"></rect>
+        <rect id="Rectangle" fill="#3200C0" x="0" y="0" width="393" height="84"></rect>
+        <text id="My-Page" font-family="ArialMT, Arial" font-size="51.8" font-weight="normal" fill="#FFFFFF">
+            <tspan x="94.7911133" y="58">My Page</tspan>
+        </text>
+        <g id="Rectangle">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+        <text id="Lorem-ipsum-dolor-si" font-family="Arial-BoldMT, Arial" font-size="24" font-weight="bold" fill="#000000">
+            <tspan x="47" y="156">Lorem ipsum</tspan>
+            <tspan x="197.691406" y="156" font-family="ArialMT, Arial" font-weight="normal"> dolor sit amet, </tspan>
+            <tspan x="47" y="183" font-family="ArialMT, Arial" font-weight="normal">consectetur adipiscing elit, </tspan>
+            <tspan x="47" y="210" font-family="ArialMT, Arial" font-weight="normal">sed do eiusmod tempor </tspan>
+            <tspan x="47" y="237" font-family="ArialMT, Arial" font-weight="normal">incididunt ut labore et dolore </tspan>
+            <tspan x="47" y="264" font-family="ArialMT, Arial" font-weight="normal">magna aliqua. Ut enim ad </tspan>
+            <tspan x="47" y="291" font-family="ArialMT, Arial" font-weight="normal">minim veniam, quis nostrud </tspan>
+            <tspan x="47" y="318" font-family="ArialMT, Arial" font-weight="normal">exercitation ullamco laboris </tspan>
+            <tspan x="47" y="345" font-family="ArialMT, Arial" font-weight="normal">nisi ut aliquip ex ea </tspan>
+            <tspan x="47" y="372" font-family="ArialMT, Arial" font-weight="normal">commodo consequat.</tspan>
+        </text>
+        <image id="Bitmap" x="42" y="400" width="309.223301" height="260" xlink:href="cat.jpg"></image>
+        <g id="Group" transform="translate(42, 689)">
+            <rect id="Rectangle" stroke="#979797" x="0.5" y="0.5" width="308" height="44"></rect>
+            <text id="Your-email-here" font-family="ArialMT, Arial" font-size="24" font-weight="normal" fill="#B7B5B5">
+                <tspan x="14" y="31">Your email here</tspan>
+            </text>
+        </g>
+        <g id="Group-2" filter="url(#filter-3)" transform="translate(42, 743)">
+            <rect id="Rectangle" fill="#3200C0" x="0" y="0" width="309" height="62"></rect>
+            <text id="Sign-up" font-family="Arial-BoldMT, Arial" font-size="24" font-weight="bold" fill="#B7B5B5">
+                <tspan x="112" y="39">Sign up</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

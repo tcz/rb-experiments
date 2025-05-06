@@ -1,0 +1,49 @@
+<body><div id="top"><div id="top-left">{{WORD1}}</div><div id="top-right">{{WORD2}}</div></div><div id="bottom"><div id="bottom-left">{{WORD3}}</div><div id="bottom-right">{{WORD4}}</div></div></body>
+
+<style>
+
+
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-weight: bold;
+        }
+
+        #top {
+            background-color: {{COLOR1}};
+            flex-basis: {{SIZE1}};
+            flex-grow: 0;
+            flex-shrink: 0;
+            color: {{COLOR2}};
+            font-size: {{FONT_SIZE1}};
+        }
+
+        #bottom {
+            background-color: {{COLOR3}};
+            flex: 1 1 auto;
+            color: {{COLOR4}};
+            font-size: {{FONT_SIZE2}};
+        }
+
+        #top, #bottom {
+            display: flex;
+        }
+
+        #top-left {
+            flex-basis: {{SIZE2}};
+            background: {{COLOR5}};
+            color: {{COLOR6}};
+            font-size: {{FONT_SIZE3}};
+        }
+
+        #bottom-left {
+            flex-basis: {{SIZE3}};
+            background: {{COLOR7}};
+            color: {{COLOR8}};
+            font-size: {{FONT_SIZE4}};
+        }
+
+
+</style>
